@@ -1,0 +1,9 @@
+# to use flush 
+import time
+count1=10
+for i in reversed(range(count1+1)):
+    if i>0:
+        print(i,end="<<<<",flush=True)
+        time.sleep(1)
+    else:
+        print('start')
